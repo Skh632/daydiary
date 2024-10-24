@@ -11,7 +11,7 @@
   }
   
   body{
-    background-image: url(images/date.png);
+    
       background-repeat: no-repeat;
       height: 100vh;
       width: auto;
@@ -28,14 +28,32 @@
 
   }
   
-  section{
-    padding: 150px;
-    background-color: #ffffff;
-    display: inline-block;
+  .sec-lead{
+    padding: 20px;
+    /* display: inline-block; */
+  }
+  
+  .sec-lead-title {
+    text-align: center;
   }
 
-  .btn1 {
-    display: flex;
+  .sec-lead-title p {
+    text-align: center;
+  }
+
+  /* .sec-img {
+    width: 800px;
+  } */
+
+
+
+  .container-img {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .container-text {
+    flex: 2;
   }
 
   .item {
@@ -62,9 +80,10 @@
       font-family: "Zen Maru Gothic", serif;
       font-weight: 700;
       font-style: normal;   
-      text-align: center;
+      /* text-align: center; */
       letter-spacing: 0.15em;
       color: #281a14;
+      /* display: flex; */
   }
 
   h2 {
@@ -75,13 +94,14 @@
     text-align: center;
     letter-spacing: 0.15em;
     color: #281a14;
+    /* display: inline-block; */
 }
   
     p {
-      padding: 40px;
+      /* padding: 40px;
       height: auto;
       margin-top: 50px;
-      margin-left: 150px;
+      margin-left: 150px; */
       font-family: "Zen Maru Gothic", serif;
       font-weight: 500;
       letter-spacing: 0.2rem;
@@ -141,6 +161,7 @@
     height: auto;
   }
   
+  /* タブレット */
   @media all and (min-width: 600px) {
     header{
       display: flex;
@@ -169,8 +190,15 @@
       .sub-menu ul li {
         text-align: center;
       }
+
+      .container {
+        display: flex;
+        gap: 20px;
+      }
+
   }
   
+  /* パソコン用 */
   @media all and (min-width: 1025px) {
   
     .item {
@@ -180,4 +208,15 @@
     p {
       font-size: 100%;
     }
+
+    .sec-lead{
+      padding: 150px;
+      /* display: inline-block; */
+    }
+  
+    .sec-img {
+      width: 800px;
+      margin: 0 auto;
+    }
+
   }
