@@ -115,7 +115,7 @@ p {
   color: #281a14;
   line-height: 30px;
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   text-align: justify;
   list-style: none;
 }
@@ -138,8 +138,11 @@ p {
   letter-spacing: 0.2rem;
   color: #281a14;
   line-height: 30px;
+  text-decoration:underline;/*下線を引く*/
+  text-decoration-color:#ffcc00;/*下線を赤色*/
+  border-width: 100px;
 
-  }
+}
 
 .sec-img1 {
   padding: 5%;
@@ -155,8 +158,10 @@ p {
 
 figure {
   font-family: "Zen Maru Gothic", serif;
-  font-weight: 300;
+  font-weight: 200;
+  letter-spacing: 0.15em;
   text-align: center;
+  color: #281a14;
 }
 
 .home {
@@ -170,7 +175,7 @@ figure {
 footer {
   background-color: #ffffff;
   width: 100%;
-  padding: 60px 0;
+  padding: 70px 0;
   font-family: 'Lexend', sans-serif;
   text-align: center;
   color: #281a14;
@@ -195,6 +200,12 @@ img {
   h1 {
     margin-bottom: 5%;
 
+  }
+
+  .p3 {
+    text-decoration:underline;/*下線を引く*/
+    text-decoration-color:#ffcc00;/*下線を赤色*/
+    border-width: 50px;
   }
 
   p {
@@ -226,13 +237,18 @@ img {
   .sec-img1 {
     padding: 5%;
   }
-  
+
   .sec-img2 {
     padding: 5%;
   }
-  
+
   .sec-img3 {
     padding: 5%;
+  }
+
+  figure {
+    font-size: 20px;
+    padding: 10px;
   }
 
 }
@@ -267,12 +283,17 @@ img {
   .sec-img1 {
     padding: 5%;
   }
-  
+
   .sec-img2 {
     padding: 5%;
   }
-  
+
   .sec-img3 {
     padding: 5%;
   }
+
+  figure {
+    font-size: 20px;
+  }
+
 }
