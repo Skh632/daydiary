@@ -164,6 +164,27 @@ figure {
   color: #281a14;
 }
 
+.p4 {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  color: #281a14;
+}
+
+.result-text {
+  padding: 60px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+  color: #281a14;
+  line-height: 50px;
+}
+
 .home {
   display: flex;
   justify-content: center;
@@ -251,6 +272,11 @@ img {
     padding: 10px;
   }
 
+  .result-text {
+    font-size: 20px;
+    padding: 10px;
+  }
+
 }
 
 /* パソコン用 */
@@ -293,6 +319,10 @@ img {
   }
 
   figure {
+    font-size: 20px;
+  }
+
+  .result-text {
     font-size: 20px;
   }
 
