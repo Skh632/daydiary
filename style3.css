@@ -130,7 +130,7 @@ p {
 
 .container-text2 {
   padding: 30px;
-  margin-top: 20px;
+  margin-top: 50px;
   font-family: "Zen Maru Gothic", serif;
   font-weight: 500;
   font-size: 30px;
@@ -253,6 +253,11 @@ img {
   .container {
     display: flex;
     gap: 20px;
+   padding: 30px;
+  }
+
+  .container.red {
+    flex-direction: row-reverse;
   }
 
   .sec-img1 {
