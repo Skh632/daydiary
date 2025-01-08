@@ -83,12 +83,12 @@ main p {
 
 h1 {
   font-family: "Zen Kaku Gothic New", serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   font-size: 20px;
   font-style: normal;
   /* text-align: center; */
-  letter-spacing: 0.15em;
+  letter-spacing: 0.30em;
   color: #281a14;
   /* display: flex; */
 }
@@ -97,9 +97,9 @@ p {
   font-family: "Zen Kaku Gothic New", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 12px;
+  font-size: 11px;
   text-align: center;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.18em;
   color: #281a14;
 
   /* display: inline-block; */
@@ -136,13 +136,13 @@ p {
   font-family: "Zen Kaku Gothic New", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   letter-spacing: 0.2rem;
-  color: #281a14;
+  color: #302916;
   line-height: 30px;
   text-decoration:underline;/*下線を引く*/
-  text-decoration-color:#ffcc00;/*下線を赤色*/
+  text-decoration-color:#fff983;/*下線を赤色*/
   border-width: 100px;
 
 }
@@ -163,7 +163,7 @@ figure {
   font-family: "Zen Kaku Gothic New", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.15em;
   text-align: center;
   color: #281a14;
@@ -186,9 +186,9 @@ figure {
   font-family: "Zen Kaku Gothic New", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 0.1rem;
-  color: #281a14;
+  color: #d8b000;
   line-height: 50px;
 }
 
@@ -204,9 +204,10 @@ footer {
   background-color: #ffffff;
   width: 100%;
   padding: 70px 0;
+  font-size: 10px;
   font-family: 'Lexend', sans-serif;
   text-align: center;
-  color: #281a14;
+  color: #b7b7b7;
 
 }
 
